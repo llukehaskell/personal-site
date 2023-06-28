@@ -16,6 +16,7 @@
             "outputPath": "dist/personal-site",
             "index": "src/index.html",
             "main": "src/main.ts",
+            "baseHref": "https://llukehaskell.github.io/personal-site/",
             "polyfills": [
               "zone.js"
             ],
@@ -91,6 +92,9 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy"
         }
       }
     }
