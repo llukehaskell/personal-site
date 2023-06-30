@@ -1,3 +1,25 @@
-<h1>Hello my name is Luke Haskell</h1>
-<p>this my website</p>
-<router-outlet></router-outlet>
+<html>
+
+<body>
+    <div class="top">
+        <h1>Hello my name is Luke Haskell</h1>
+        <p>you have reached my website</p>
+    </div>
+    <div class="links">
+        <a mat-raised-button href="https://github.com/llukehaskell"> 
+            github
+        </a>
+        <br>
+        <a mat-raised-button href="https://www.linkedin.com/in/luke-haskell/"> 
+            linkedin
+        </a>
+    </div>
+    
+    <router-outlet></router-outlet>
+</body>
+
+</html>
+<!-- 
+    add this line after line 18 in angular.json if the ghpages deployment doesn't work. (having this line makes ng serve not work)
+    "baseHref": "https://llukehaskell.github.io/personal-site/", 
+-->
