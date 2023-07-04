@@ -1,49 +1,20 @@
-.top {
+mat-toolbar {
+    
+}
+
+.shortcuts {
+    margin-left:10%;
+    display: inline-block;
+    text-decoration: underline;
+}
+
+.shortcuts:hover {
+    cursor: pointer;
+}
+
+.front {
     text-align: left;
     font-size: 22px;
     color:white;
 }
 
-.mat-mdc-raised-button {
-    margin-bottom: 10px;
-    /* border: 1px solid rgb(170, 170, 170); */
-}
-
-.mat-mdc-raised-button.github { /* get a load of this selector (keeps getting changed so finding out how to do this was sm fun!!!!!!! */
-    background-color: #333;
-    color: #EEE;
-}
-
-.mat-mdc-raised-button.linkedin {
-    background-color: #2867B2;
-}
-
-.mat-mdc-raised-button.mastodon {
-    background-color: #6364FF;
-}
-
-.mat-mdc-raised-button.twitter {
-    background-color: #1DA1F2;
-}
-
-.mat-mdc-raised-button.discord {
-    background-color: #5865F2;
-}
-
-.mat-mdc-raised-button.instagram {
-    background-color: #E1306C;
-}
-
-.mat-mdc-raised-button.youtube {
-    background-color: #FF0000;
-}
-
-.mat-mdc-raised-button.spotify {
-    background-color: #1DB954;
-}
-
-img {
-    vertical-align: bottom; /* idk why 'bottom' aligns it to the middle but whatevs */
-    width: 20px;
-    height: 20px;
-}

@@ -1,66 +1,24 @@
+<!DOCTYPE html>
 <html>
 
+<mat-toolbar>
+    <div class="shortcuts">
+        <span>hire me  </span>
+        <span routerLink="/connect">hit me up  </span>
+        <span>projects</span>
+    </div>
+
+</mat-toolbar>
+
 <body>
-    <div class="top">
-        <h1>Hello my name is Luke Haskell</h1>
-        <p>you have reached my website</p>
+    <div class="front">
+        <div class="greeting">
+            <h1>hello my name is <span routerLink="/">Luke Haskell</span></h1>            
+            <h2>you have reached my website</h2>
+        </div>
     </div>
-    <div class="links">
-        <a mat-raised-button class="github" href="https://github.com/llukehaskell"> 
-            <img src="../assets/images/github_icon.png" style="filter: invert(1);">
-            llukehaskell
-        </a>
-        <br>
-        <a mat-raised-button class="linkedin" href="https://www.linkedin.com/in/luke-haskell/"> 
-            <img src="../assets/images/linkedin_icon.png">
-            luke-haskell
-        </a>
-        <br>
-        <a mat-raised-button class="mastodon" href="https://mastodon.social/@lluke27"> 
-            <img src="../assets/images/mastodon_icon.png">
-            lluke27
-        </a>
-        <br>
-        <a mat-raised-button class="twitter" href="https://twitter.com/lluke_27"> 
-            <img src="../assets/images/twitter_icon.png">
-            lluke_27
-        </a>
-        <br>
-        <a mat-raised-button class="discord" href="https://discord.com/users/222118861997080576"> 
-            <img src="../assets/images/discord_icon.png">
-            lluke27
-        </a>
-        <br>
-        <a mat-raised-button class="instagram" href="https://www.instagram.com/lluke27/"> 
-            <img src="../assets/images/instagram_icon.png">
-            lluke27
-        </a>
-        <br>
-        <a mat-raised-button class="youtube" href="https://www.youtube.com/channel/UCkLlY_dPbTL_52FGfqwXfVA"> 
-            <img src="../assets/images/youtube_icon.png">
-            lwke
-        </a>
-        <br>
-        <a mat-raised-button class="spotify" href="https://open.spotify.com/user/28b9nhut8ye1pf605virost3t"> 
-            <img src="../assets/images/spotify_icon.png">
-            luke
-        </a>
-    </div>
-    
-    <!-- 
-        github
-        linkedin
-        youtube
-        instagram
-        twitter
-        mastodon
-        discord
-        spotify
-     -->
-
-    <router-outlet></router-outlet>
 </body>
-
+<router-outlet></router-outlet>
 </html>
 <!-- 
     add this line after line 18 in angular.json if the ghpages deployment doesn't work. (having this line makes ng serve not work)
