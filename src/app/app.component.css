@@ -1,20 +1,30 @@
 mat-toolbar {
-    
+    font-family: ubuntu;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    background-color: #212326;
 }
 
 .shortcuts {
-    margin-left:10%;
-    display: inline-block;
-    text-decoration: underline;
+    margin: auto;
+    font-size: 30px;
+    color: rgb(180, 180, 180);
 }
 
-.shortcuts:hover {
+.shortcuts p {
+    margin-left: 6vw;
+    margin-right: 6vw;
+    display: inline;
+}
+
+.shortcuts p:hover {
+    color: #FFF;    
     cursor: pointer;
 }
 
-.front {
-    text-align: left;
-    font-size: 22px;
-    color:white;
+.active {
+    color: #FFF;
+    text-decoration: underline;
 }
-

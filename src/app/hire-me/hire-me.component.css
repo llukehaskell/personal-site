@@ -1,0 +1,24 @@
+body {
+    text-align: center;
+}
+
+.resume .mat-mdc-raised-button {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.resume a {
+    font-size: 45px;
+    color: #FFF;
+    background-color: rgb(114, 150, 119);
+    height: 60px;
+}
+
+.resume a:hover {
+    text-decoration: underline;
+}
+
+.resume img {
+    vertical-align: bottom;
+    height: 50px;
+}

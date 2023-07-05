@@ -1,18 +1,22 @@
+body {
+    text-align: center;
+}
+
 .mat-mdc-raised-button {
-    padding-top: 25px;
-    padding-bottom: 25px;
-    margin-bottom: 10px;
-    font-size: 20px;
-    /* border: 1px solid rgb(170, 170, 170); */
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+
+.mat-mdc-raised-button.linkedin {
+    background-color: #2867B2;
 }
 
 .mat-mdc-raised-button.github { /* get a load of this selector (keeps getting changed so finding out how to do this was sm fun!!!!!!! */
     background-color: #333;
     color: #EEE;
-}
-
-.mat-mdc-raised-button.linkedin {
-    background-color: #2867B2;
+    border: 2px solid rgb(170, 170, 170);
 }
 
 .mat-mdc-raised-button.mastodon {
@@ -41,7 +45,7 @@
 
 img {
     vertical-align: bottom; /* idk why 'bottom' aligns it to the middle but whatevs */
-    width: 25px;
-    height: 25px;
+    width: 40px;
+    height: 40px;
     padding-right: 6px;
 }

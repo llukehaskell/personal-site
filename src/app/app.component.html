@@ -3,21 +3,15 @@
 
 <mat-toolbar>
     <div class="shortcuts">
-        <span>hire me  </span>
-        <span routerLink="/connect">hit me up  </span>
-        <span>projects</span>
+        <p routerLink= "/home" routerLinkActive="active">home</p>
+        <p routerLink= "/hire-me" routerLinkActive="active">hire me</p>
+        <p routerLink= "/connect" routerLinkActive="active">hit me up</p>
+        <p routerLinkActive="active">projects</p>
     </div>
 
 </mat-toolbar>
 
-<body>
-    <div class="front">
-        <div class="greeting">
-            <h1>hello my name is <span routerLink="/">Luke Haskell</span></h1>            
-            <h2>you have reached my website</h2>
-        </div>
-    </div>
-</body>
+
 <router-outlet></router-outlet>
 </html>
 <!-- 
