@@ -22,3 +22,24 @@ body {
     vertical-align: bottom;
     height: 50px;
 }
+
+.skillstitle {
+    color: white;
+    font-size: 40px;
+    text-decoration: underline;
+    margin-top: 80px;
+    margin-bottom: 0px;
+}
+
+.summary {
+    color: white;
+    font-size: 30px;
+    text-align: left;
+    border: 3px solid #888;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    width: 15vw;
+    background-color: #24272a;
+}

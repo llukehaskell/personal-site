@@ -10,6 +10,7 @@ import { ConnectComponent } from './connect/connect.component';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { HomeComponent } from './home/home.component';
 import { HireMeComponent } from './hire-me/hire-me.component';
+import { ProjectsComponent } from './projects/projects.component';
 
 
 
@@ -18,7 +19,8 @@ import { HireMeComponent } from './hire-me/hire-me.component';
     AppComponent,
     ConnectComponent,
     HomeComponent,
-    HireMeComponent
+    HireMeComponent,
+    ProjectsComponent
   ],
   imports: [
     BrowserModule,
@@ -28,6 +30,7 @@ import { HireMeComponent } from './hire-me/hire-me.component';
       {path: 'home', component: HomeComponent},
       {path: 'connect', component: ConnectComponent},
       {path: 'hire-me', component: HireMeComponent},
+      {path: 'projects', component: ProjectsComponent},
       
       {path: '', redirectTo: '/home', pathMatch: 'full'}, // makes home the default page
     ]),
