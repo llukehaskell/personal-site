@@ -1,6 +1,6 @@
 .tmp {
     color: white;
-    font-size: 30px;
+    font-size: 45px;
     line-height: 40px;
     text-align: center;
     border: 3px solid #888;
@@ -10,4 +10,13 @@
     padding: 15px;
     width: 30vw;
     background-color: #24272a;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
